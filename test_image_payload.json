@@ -1,0 +1,8 @@
+{
+    "studentName": "Image Test User",
+    "studentEmail": "imgtest@example.com",
+    "mealType": "dinner",
+    "rating": 4,
+    "review": "Testing Cloudinary upload",
+    "foodImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+}

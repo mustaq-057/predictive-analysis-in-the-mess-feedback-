@@ -1,0 +1,8 @@
+{
+    "studentName": "Test User",
+    "studentEmail": "test@example.com",
+    "mealType": "lunch",
+    "rating": 5,
+    "review": "Backend connection test via file",
+    "foodImage": null
+}

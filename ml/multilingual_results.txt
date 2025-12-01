@@ -1,0 +1,31 @@
+﻿============================================================
+≡ƒîì MULTILINGUAL REVIEW VERIFICATION
+============================================================
+Γ£à Model loaded successfully
+
+Running tests...
+----------------------------------------------------------------------
+Language   | Text                      | Pred       | Exp       
+----------------------------------------------------------------------
+Telugu     | biryani chala bagundi     | GOOD  Γ£à | GOOD
+Telugu     | curry asalu baledu        | BAD   Γ£à | BAD
+Telugu     | food super undi           | GOOD  Γ£à | GOOD
+Telugu     | taste daridram            | BAD   Γ£à | BAD
+Kannada    | oota sakath agide         | GOOD  Γ£à | GOOD
+Kannada    | saaru chennagilla         | BAD   Γ£à | BAD
+Kannada    | idli tumba chennagide     | GOOD  Γ£à | GOOD
+Kannada    | palya thu                 | BAD   Γ£à | BAD
+Punjabi    | paneer vadiya hai         | GOOD  Γ£à | GOOD
+Punjabi    | daal bekar si             | BAD   Γ£à | BAD
+Punjabi    | chicken att hai           | GOOD  Γ£à | GOOD
+Punjabi    | roti ganda lagya          | BAD   Γ£à | BAD
+Hindi      | khana mast tha            | GOOD  Γ£à | GOOD
+Hindi      | sabzi bakwas hai          | BAD   Γ£à | BAD
+Hindi      | maza aa gaya              | GOOD  Γ£à | GOOD
+Hindi      | mood kharab ho gaya       | BAD   Γ£à | BAD
+English    | food was amazing          | GOOD  Γ£à | GOOD
+English    | terrible taste            | BAD   Γ£à | BAD
+----------------------------------------------------------------------
+≡ƒôè Final Score: 18/18 (100.0%)
+
+Γ£¿ PASSED: Model handles all 5 languages well!

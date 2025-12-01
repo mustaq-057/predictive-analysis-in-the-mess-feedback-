@@ -1,0 +1,93 @@
+﻿================================================================================
+≡ƒì╜∩╕Å  PRODUCTION MODEL TRAINING - 5000 SAMPLES
+================================================================================
+
+≡ƒôé Loading data from ml/data/ultra_large_reviews.csv...
+Γ£ô Total reviews available: 200000
+  - Good reviews: 2979
+  - Bad reviews: 3021
+
+Γ£é∩╕Å  Splitting data (5000 train, 1000 test)...
+  - Training samples: 5000
+  - Test samples: 1000
+
+================================================================================
+≡ƒöº Preprocessing training data...
+≡ƒôè Extracting features using TF-IDF...
+≡ƒñû Training ensemble model...
+   Γ£ô Naive Bayes CV Score: 0.9968
+   Γ£ô Logistic Regression CV Score: 1.0000
+   Γ£ô SVM CV Score: 1.0000
+   Γ£ô Random Forest CV Score: 0.9444
+≡ƒÄ» Creating production ensemble model...
+   Γ£ô Ensemble CV Score: 0.9998
+
+≡ƒôê Evaluating on test set...
+
+≡ƒÄ» Test Accuracy: 1.0000 (100.00%)
+
+≡ƒôè Classification Report:
+              precision    recall  f1-score   support
+
+         bad       1.00      1.00      1.00       504
+        good       1.00      1.00      1.00       496
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
+
+≡ƒôë Confusion Matrix:
+[[504   0]
+ [  0 496]]
+
+================================================================================
+≡ƒÆ╛ SAVING PRODUCTION MODEL
+================================================================================
+
+≡ƒÆ╛ Model saved to: ml/models\sentiment_model_production.pkl
+≡ƒÆ╛ Vectorizer saved to: ml/models\sentiment_model_production_vectorizer.pkl
+
+================================================================================
+≡ƒº¬ Testing on sample reviews:
+================================================================================
+
+Review: "The food was amazing and fresh!"
+Rating: 5/5
+Predicted: GOOD (confidence: 87.51%)
+
+Review: "Terrible meal. Food was cold and tasteless."
+Rating: 1/5
+Predicted: BAD (confidence: 93.68%)
+
+Review: "Average food. Nothing special."
+Rating: 3/5
+Predicted: BAD (confidence: 88.58%)
+
+Review: "Loved the biryani today. Delicious!"
+Rating: 5/5
+Predicted: GOOD (confidence: 92.46%)
+
+Review: "Food quality is very poor. Not acceptable."
+Rating: 2/5
+Predicted: BAD (confidence: 92.61%)
+
+Review: "Excellent breakfast today. Everything was perfect!"
+Rating: 5/5
+Predicted: GOOD (confidence: 91.42%)
+
+Review: "Dal was watery and roti was burnt."
+Rating: 1/5
+Predicted: BAD (confidence: 86.31%)
+
+================================================================================
+Γ£à PRODUCTION MODEL TRAINING COMPLETE!
+================================================================================
+≡ƒôè Final Metrics:
+   - Training samples: 5000
+   - Test samples: 1000
+   - Cross-validation score: 0.9998
+   - Test accuracy: 1.0000 (100.00%)
+   - Model saved as: sentiment_model_production.pkl
+   - Trained at: 2025-11-30 18:02:41
+================================================================================

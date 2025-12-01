@@ -1,0 +1,17 @@
+FRESH 500K MULTILINGUAL MODEL RESULTS
+=====================================
+
+Dataset: 500,000 reviews (100k per language)
+Languages: Telugu, Kannada, Punjabi, Hindi, English
+
+Test Accuracy: 99.81%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         bad       1.00      1.00      1.00     49951
+        good       1.00      1.00      1.00     50049
+
+    accuracy                           1.00    100000
+   macro avg       1.00      1.00      1.00    100000
+weighted avg       1.00      1.00      1.00    100000

@@ -1,0 +1,6 @@
+Overall Accuracy: 100.0%
+Telugu: 100.0%
+Kannada: 100.0%
+Punjabi: 100.0%
+Hindi: 100.0%
+English: 100.0%

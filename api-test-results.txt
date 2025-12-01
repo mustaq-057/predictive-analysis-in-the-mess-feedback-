@@ -1,0 +1,41 @@
+﻿
+============================================================
+≡ƒîÉ API ENDPOINT TESTS
+============================================================
+
+≡ƒôÑ Testing GET /api/reviews
+------------------------------------------------------------
+Γ£à Status: 200 OK
+Γ£à Success: true
+Γ£à Total reviews: 5
+Γ£à Reviews fetched: 5
+
+Sample review:
+   Student: API Test User
+   Meal: lunch
+   Rating: 4/5
+   Sentiment: good
+   Review: Testing the feedback submission API. The food quality was good today!...
+
+
+≡ƒôñ Testing POST /api/reviews (Create Feedback)
+------------------------------------------------------------
+Γ£à Status: 201 Created
+Γ£à Success: true
+Γ£à Review created with ID: 692c21594d6e6d2d0f7b4172
+Γ£à AI Sentiment detected: good
+Γ£à AI Analysis: Positive feedback received. Strengths: food quality (good). No specific issues mentioned. Maintain current standards.
+
+≡ƒº╣ Cleaning up test review...
+Γ£à Test review created (ID: 692c21594d6e6d2d0f7b4172)
+
+
+≡ƒöì Testing GET /api/reviews with filters
+------------------------------------------------------------
+Γ£à Good reviews found: 3
+Γ£à Lunch reviews found: 3
+
+============================================================
+Γ£à API ENDPOINT TESTS COMPLETE
+============================================================
+

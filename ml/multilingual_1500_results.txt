@@ -1,0 +1,13 @@
+MULTILINGUAL MODEL (1500 SAMPLES) RESULTS
+=========================================
+Test Accuracy: 97.67%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         bad       1.00      0.96      0.98       165
+        good       0.95      1.00      0.97       135
+
+    accuracy                           0.98       300
+   macro avg       0.98      0.98      0.98       300
+weighted avg       0.98      0.98      0.98       300

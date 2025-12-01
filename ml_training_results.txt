@@ -1,0 +1,30 @@
+﻿======================================================================
+python : Traceback (most recent call last):
+At line:1 char:1
++ python ml\train_model.py 2>&1 | Out-File -FilePath 
+ml_training_result ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback  
+   (most recent call last)::String) [], RemoteExceptio  
+  n
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Mahab\OneDrive\Documents\mess project 
+2\ml\train_model.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Mahab\OneDrive\Documents\mess project 
+2\ml\train_model.py", line 212, in main
+    print("\U0001f37d\ufe0f  MESS FOOD REVIEW SENTIMENT 
+ANALYSIS MODEL TRAINING")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
+  File "C:\Users\Mahab\AppData\Local\Programs\Python\Pyt
+hon313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encod
+ing_table)[0]
+           
+~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode 
+characters in position 0-1: character maps to 
+<undefined>

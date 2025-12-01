@@ -1,0 +1,46 @@
+PER-LANGUAGE ACCURACY RESULTS
+============================================================
+
+TELUGU
+  Total Reviews: 10000
+  Overall Accuracy: 100.00%
+  Good Reviews: 100.00%
+  Bad Reviews: 100.00%
+
+KANNADA
+  Total Reviews: 10000
+  Overall Accuracy: 100.00%
+  Good Reviews: 100.00%
+  Bad Reviews: 100.00%
+
+PUNJABI
+  Total Reviews: 10000
+  Overall Accuracy: 100.00%
+  Good Reviews: 100.00%
+  Bad Reviews: 100.00%
+
+HINDI
+  Total Reviews: 10000
+  Overall Accuracy: 100.00%
+  Good Reviews: 100.00%
+  Bad Reviews: 100.00%
+
+ENGLISH
+  Total Reviews: 10000
+  Overall Accuracy: 99.27%
+  Good Reviews: 98.98%
+  Bad Reviews: 99.56%
+
+============================================================
+OVERALL MULTILINGUAL ACCURACY: 99.85%
+============================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         bad       1.00      1.00      1.00     25000
+        good       1.00      1.00      1.00     25000
+
+    accuracy                           1.00     50000
+   macro avg       1.00      1.00      1.00     50000
+weighted avg       1.00      1.00      1.00     50000
