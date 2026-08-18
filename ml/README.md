@@ -127,17 +127,12 @@ When a review is submitted:
 
 ## Advantages Over API
 
-✅ No API costs
-✅ No rate limits
-✅ Data stays private
-✅ Fast (< 200ms inference)
-✅ Works offline
-✅ Customizable for your mess
-
-## Troubleshooting
-
-**Error: "Model not found"**
-- Run `python ml/train_model.py` first
+No API costs
+No rate limits
+Data stays private
+Fast (< 200ms inference)
+works offline
+Customizable for your mess
 
 **Error: "No module named 'sklearn'"**
 - Install dependencies: `pip install -r ml/requirements.txt`
